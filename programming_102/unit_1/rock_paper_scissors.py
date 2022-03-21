@@ -42,7 +42,7 @@ while True:
             print("You win!")
 
         # check losing case
-        elif computer == "rock":
+        elif computer == "paper": #!logic error case would result in tie, lose case == "paper"
             print("Sorry, You lose.")
 
     # check all cases if user is paper

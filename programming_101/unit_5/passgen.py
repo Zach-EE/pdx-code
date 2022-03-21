@@ -21,8 +21,9 @@ def generate_random_pass():
     ## TODO: Allow the user to choose how many letters, numbers, and punctuation characters they want in their password. Mix everything up using list(), random.shuffle(), and ''.join(). 
 
     password =[]
-
-    for i in range(length):
+    i=0
+    while i < length+1:
+    # for i in range(length):
         password.append(random.choice(SPECIAL_CHARS + UPPER_CHARS + LOWER_CHARS + DIGITS))
 
     # convers randomizes password and converts to a string for user to copy
