@@ -9,7 +9,7 @@ def distance_converter(distance, original_unit, conversion_unit):
         'mi': 1609.34,  # 1 mi is 1609.34 m
         'm': 1,         # 1 m is 1 m
         'km': 1000      # 1 km is 1000 m
-    }2
+    }
 
     float_distance = float(distance)
 
