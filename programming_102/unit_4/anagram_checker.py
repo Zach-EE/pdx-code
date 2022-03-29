@@ -5,6 +5,7 @@ def anagram_check(string_1, string_2):
     list_1.sort(reverse=True)
     list_2.sort(reverse=True)
 
+    # Anagram check
     if len(string_1) != len(string_2):
         return False
 
